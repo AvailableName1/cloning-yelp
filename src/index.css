@@ -11,6 +11,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+main {
+  position: relative;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -18,4 +22,27 @@ code {
 
 #root {
   background-color: #d4e09b;
+}
+
+.PopUp {
+  position: absolute;
+  top: 3rem;
+  left: 3rem;
+  z-index: 1;
+  min-width: 18rem;
+}
+
+.popUp-enter {
+  opacity: 0;
+}
+.popUp-enter-active {
+  opacity: 1;
+  transition: opacity 200ms;
+}
+.popUp-exit {
+  opacity: 1;
+}
+.popUp-exit-active {
+  opacity: 0;
+  transition: opacity 200ms;
 }
