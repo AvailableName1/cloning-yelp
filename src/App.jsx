@@ -14,7 +14,7 @@ class App extends React.Component {
           <div className="d-flex justify-content-center align-items-center">
             <Link className="navbar-brand" to="/"><h1>Home</h1></Link>
             <div className="navbar-nav flex-row gap-3">
-              <Link className="nav-link" to="/caffee"><h1>Caffee</h1></Link>
+              <Link className="nav-link" to="/caffee"><h1>Cafe</h1></Link>
               <Link className="nav-link" to="/restaurant"><h1>Restaurant</h1></Link>
             </div>
           </div>
