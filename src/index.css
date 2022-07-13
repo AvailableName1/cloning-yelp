@@ -15,11 +15,6 @@ main {
   position: relative;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
 #root {
   background-color: #d4e09b;
 }
@@ -45,4 +40,11 @@ code {
 .popUp-exit-active {
   opacity: 0;
   transition: opacity 200ms;
+}
+
+.infoCards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 6px;
+  padding-bottom: 1rem;
 }
